@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    border:0;
+
+
+}
+.encabezado{
+    background-color: rgb(152, 137, 189);
+    display: flex;
+    gap: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 30px;
+}
+#mas{
+    display: flex;
+    justify-content:left;
+    height: 40px;
+    width: 40px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#mas img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+#titulo p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.instagramboton{
+        display: flex;
+        color: black;
+        border: 1px solid  rgb(164, 151, 196);
+        width: 300px;
+        border-radius: 30px;
+        height: 46px;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 26%;
+        cursor: pointer;
+        animation: animacion_boton 2s ease-in-out 2;
+        background-color: rgb(200, 144, 226);
+
+}
+
+.instap{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.instagramboton img{
+    margin-left: 7%;
+    height: 30px;
+    border-radius: 3px;
+}
+#contactanos a{
+    text-decoration: none;
+}
+#instagram a{
+    text-decoration: none;
+}
+#tiktok a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(170, 162, 189);
+}
+#boxtext{
+    height: 200px;
+    width: 300px;
+    background-color: azure;
+    border-radius: 20px;
+}
+#boxtext img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius:20px ;
+}
+
+@keyframes animacion_boton {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+main{
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+    flex-direction: column;
+    background-color: rgb(170, 162, 189);
+}
